@@ -7,7 +7,7 @@ cask "anchor" do
   desc "Menu-bar focus companion that pulls you back to deep work"
   homepage "https://anchor.areen.io"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Anchor.app"
 
